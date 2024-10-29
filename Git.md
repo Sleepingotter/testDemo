@@ -45,6 +45,7 @@ Git的三个区域：
 `git pull 远程仓库别名 分支名`  将远程仓库中的文件更新到本地（远程->本地）
 
 - 相当于`git fetcg origin master`获取远程分支记录到本地，不进行合并操作，`git merge origin/master` 将远程分支记录合并到所在分支下
+- `git pull --rebase 远程仓库别名 分支名` 变机，强制拉取（？）合并没有关系的记录
 
 ## 分支
 
