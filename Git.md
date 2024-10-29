@@ -29,11 +29,13 @@ Git的三个区域：
 
 `git remote -v` 查看连接的仓库信息
 
-`git remote add origin URL` 配置连接远程仓库的URL
+`git remote add 远程仓库别名（origin） URL` 配置连接远程仓库的URL
 
-`git remote rm origin` 移除远程仓库
+`git remote rm 远程仓库别名` 移除远程仓库
 
-`git push origin master` 将版本库中的文件传到远程仓库上
+`git push -u 远程仓库别名 本地分支名:远程分支名` 将版本库中的文件传到远程仓库上
+
+- `git push -u origin master`当本地分支名和远程分支名相同时，可以省略一个分支名
 
 ## 分支
 
